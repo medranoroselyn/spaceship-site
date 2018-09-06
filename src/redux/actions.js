@@ -11,7 +11,7 @@ export const getAllProducts = () => dispatch => {
 
 const getAllProductsAction = (products) => {
   return {
-    type: "GET_ALL_PRODUTS",
+    type: "GET_ALL_PRODUCTS",
     products
   }
 }
