@@ -1,6 +1,6 @@
 const productsReducer = (state= {}, action) => {
   switch(action.type) {
-    case "GET_ALL_PRODUTS": {
+    case "GET_ALL_PRODUCTS": {
       return {
         ...state,
         ...action.products
